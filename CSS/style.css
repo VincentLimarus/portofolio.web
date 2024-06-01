@@ -101,3 +101,20 @@ nav {
     transform: rotate(-45deg) translate(5px, -5px);
   }
 }
+
+.home,
+.about,
+.projects,
+.contact {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.home {
+  background-color: #f4f4f4;
+}
+
+.about,
+.contact {
+  background-color: #e4e4e4;
+}
