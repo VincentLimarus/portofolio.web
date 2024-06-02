@@ -62,6 +62,91 @@ nav {
   transition: transform 0.4s, opacity 0.4s;
 }
 
+footer {
+  background-color: #111;
+  /* padding: 5rem 0; */
+  margin: 0;
+  padding: 0;
+}
+.footer-container {
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+}
+.icon a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 90%;
+}
+.icon a i {
+  font-size: 2em;
+  color: black;
+  opacity: 0, 9;
+}
+
+.icon a:hover {
+  background-color: #111;
+  transition: 0.5s;
+}
+.icon a:hover i {
+  color: white;
+  transition: 0.5s;
+}
+
+.footer-navbar {
+  margin: 30px 0;
+}
+.footer-navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  /* margin: 1rem; */
+}
+.footer-navbar ul li a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+.footer-navbar ul li a:hover {
+  opacity: 1;
+  color: #007bff;
+}
+
+.footer-copyright {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+.footer-copyright p {
+  color: white;
+}
+
+.home,
+.about,
+.projects,
+.contact {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.home {
+  background-color: #f4f4f4;
+}
+
+.about,
+.contact {
+  background-color: #e4e4e4;
+}
+
 @media screen and (max-width: 768px) {
   .navbar {
     display: flex;
@@ -100,21 +185,16 @@ nav {
   .menu-toggle.active .bar:nth-child(3) {
     transform: rotate(-45deg) translate(5px, -5px);
   }
-}
-
-.home,
-.about,
-.projects,
-.contact {
-  padding: 60px 20px;
-  text-align: center;
-}
-
-.home {
-  background-color: #f4f4f4;
-}
-
-.about,
-.contact {
-  background-color: #e4e4e4;
+  .footer-navbar ul {
+    flex-direction: column;
+  }
+  .footer-navbar ul li {
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+  }
+  .icon a {
+    padding: 8px;
+    margin: 4px;
+  }
 }
