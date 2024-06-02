@@ -1,1 +1,1 @@
-This repository will be explaining about my skills and preferences as a backend developers and data engineer.
+Simple Portofolio Repository build using HTML, CSS, and JS. 
