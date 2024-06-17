@@ -69,6 +69,7 @@ nav {
 
 .header-content {
   font-family: "Arial", sans-serif;
+  
 }
 
 .header-content h1 {
@@ -188,6 +189,9 @@ footer {
   color: white;
 }
 
+.about-text p {
+  text-align: justify;
+}
 section {
   padding: 2em 3em;
   margin: 1em auto;
