@@ -5,7 +5,8 @@
 }
 
 body {
-  font-family: "Arial", sans-serif;
+  /* font-family: "Arial", sans-serif; */
+  font-family: "Lexend", sans-serif;
   line-height: 1.6;
   background-color: #f4f4f4;
 }
@@ -17,7 +18,8 @@ nav {
   min-height: 8vh;
   /* background-color: #fff; */
   /* background-color: #333; */
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Lexend", sans-serif;
   /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
 }
 
@@ -28,6 +30,7 @@ nav {
   font-family: Poppins, sans-serif;
   cursor: pointer;
   color: #fff;
+  font-family: "Lexend", sans-serif;
 }
 
 .navbar {
@@ -68,8 +71,8 @@ nav {
 }
 
 .header-content {
-  font-family: "Arial", sans-serif;
-  
+  /* font-family: "Arial", sans-serif; */
+  font-family: "Lexend", sans-serif;
 }
 
 .header-content h1 {
