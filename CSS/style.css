@@ -30,7 +30,8 @@ nav {
   text-decoration: none;
   font-weight: 500;
   margin-left: 40px;
-  cursor: pointer;
+  /* Cursor as template */
+  cursor: default;
   font-family: "Lexend", sans-serif;
 }
 
